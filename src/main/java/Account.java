@@ -3,12 +3,12 @@
  public class Account {
     private String firstName;
     private String lastName;
-    private int accoutnNumber;
+    private String accoutnNumber;
     //private Service service = new Service();
 
 
 
-    private void setAccoutnNumber(Integer accoutnNumber) {
+    private void setAccoutnNumber(String accoutnNumber) {
         this.accoutnNumber = accoutnNumber;
     }
 
@@ -28,11 +28,11 @@
         return lastName;
     }
 
-    public Integer getAccoutnNumber() {
+    public String getAccoutnNumber() {
         return accoutnNumber;
     }
 
-     public Account(String firstName, String lastName, Integer accoutnNumber){
+     public Account(String firstName, String lastName, String accoutnNumber){
          setAccoutnNumber(accoutnNumber);
          setLastName(lastName);
          setFirstName(firstName);

@@ -6,14 +6,14 @@ public class App {
 
         Service service = new Service();
 
-        Account raket = new Account("Raket", "Makhim", 1);
-        Account aha = new Account("Aharan", "Manoharan", 2);
+        Account raket = new Account("Raket", "Makhim", "1");
+        Account aha = new Account("Aharan", "Manoharan", "2");
 
 
         service.insertMap(raket);
         service.insertMap(aha);
 
-        System.out.print(service.getRightHereMap());
+        System.out.print(service.getRightHereMap().containsValue(raket));
 
         System.out.print(service.jmapper());
 
