@@ -1,21 +1,21 @@
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class App {
 
 
-    public static void main(String []args) throws JsonProcessingException {
+    public static void main(String []args)  {
 
         Service service = new Service();
 
-        new Account("Raket", "Makhim", "1");
-        new Account("Aharan", "Manoharan", "2");
+        Account raket = new Account("Raket", "Makhim", 1);
+        Account aha = new Account("Aharan", "Manoharan", 2);
+
+
+        service.insertMap(raket);
+        service.insertMap(aha);
 
         System.out.print(service.getRightHereMap());
 
-        ObjectMapper mapper = new ObjectMapper();
-        String json = mapper.writeValueAsString(service.getRightHereMap());
-        System.out.print(json);
+        System.out.print(service.jmapper());
 
     }
 }
