@@ -1,7 +1,16 @@
+
+
 public class App {
 
+
     public static void main(String []args){
-        String sentence = "Hello world to the standard out";
-        System.out.print(sentence);
+
+        Service service = new Service();
+
+        new Account("Raket", "Makhim", "1");
+        new Account("Aharan", "Manoharan", "2");
+
+        System.out.print(service.getRightHereMap());
+
     }
 }
