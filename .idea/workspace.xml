@@ -41,8 +41,8 @@
       <file leaf-file-name="PeopleFinder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PeopleFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -374,7 +374,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542103678862</updated>
       <workItem from="1542103682422" duration="11480000" />
-      <workItem from="1542123767815" duration="3554000" />
+      <workItem from="1542123767815" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="this is a commit ya'll">
       <created>1542105936926</created>
@@ -439,13 +439,17 @@
       <option name="project" value="LOCAL" />
       <updated>1542127045161</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="first commit">
+      <created>1542127351848</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542127351848</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.11.13 at 16h 27m 04s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests - 2018.11.13 at 16h 27m 13s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
@@ -473,9 +477,12 @@
     <history-entry file="Tests - 2018.11.13 at 16h 42m 16s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests - 2018.11.13 at 16h 42m 43s.xml">
+      <configuration name="Tests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15034000" />
+    <option name="totallyTimeSpent" value="15078000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
@@ -521,9 +528,9 @@
     <MESSAGE value="Second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="fourth commit" />
-    <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -652,8 +659,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PeopleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="false" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
           <folding />
         </state>
       </provider>
