@@ -15,4 +15,14 @@ public class PeopleFinder {
         System.out.print(count);
         return count;
     }
+
+    public long FindInstanceOfFirstNameStreams(String name) {
+        final Service service = new Service();
+        int cout = 0;
+
+
+        return service.getRightHereMap().values().stream()
+                .filter(e -> e.getFirstName().equals(name)|| e.getLastName().equals(name))
+                .count();
+    }
 }
