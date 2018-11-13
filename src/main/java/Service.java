@@ -1,14 +1,20 @@
-import java.util.*;
+import java.util.HashMap;
 
- class Service {
-    private static Map<String, String> rightHereMap = new HashMap<String, String>();
+import org.json.JSONObject;
 
-    Map<String, String> getRightHereMap() {
+ public class Service {
+    private static HashMap<String, Account> rightHereMap = new HashMap<String, Account>();
+
+    public JSONObject jmapper(){
+        return new JSONObject(rightHereMap);
+     }
+
+    public HashMap<String, Account> getRightHereMap() {
         return rightHereMap;
     }
 
-    void insertMap(Account acc){
-        rightHereMap.put(acc.getFirstName() + " " + acc.getLastName(), acc.getAccoutnNumber());
+    public void insertMap(Account acc){
+        rightHereMap.put(acc.getAccoutnNumber(), acc);
     }
 
 }

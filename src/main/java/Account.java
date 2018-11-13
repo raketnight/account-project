@@ -1,15 +1,12 @@
 
 
- class Account extends  Service{
-    private String firstName, lastName, accoutnNumber;
-    private Service service = new Service();
+ public class Account {
+    private String firstName;
+    private String lastName;
+    private String accoutnNumber;
+    //private Service service = new Service();
 
-    Account(String fname, String lname, String accNo){
-        setAccoutnNumber(accNo);
-        setLastName(lname);
-        setFirstName(fname);
-        service.insertMap(this);
-    }
+
 
     private void setAccoutnNumber(String accoutnNumber) {
         this.accoutnNumber = accoutnNumber;
@@ -23,15 +20,22 @@
         this.lastName = lastName;
     }
 
-     String getFirstName() {
+    public String getFirstName() {
         return firstName;
     }
 
-     String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
-     String getAccoutnNumber() {
+    public String getAccoutnNumber() {
         return accoutnNumber;
     }
+
+     public Account(String firstName, String lastName, String accoutnNumber){
+         setAccoutnNumber(accoutnNumber);
+         setLastName(lastName);
+         setFirstName(firstName);
+         //service.insertMap(this);
+     }
 }
